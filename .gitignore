@@ -1,0 +1,25 @@
+# 数据（不要上传 csv）
+data/raw/*.csv
+data/*.csv
+data/processed/
+
+# 模型（不要上传 pkl）
+models/*.pkl
+models/*.joblib
+
+# 日志
+logs/*.log
+logs/*.png
+logs/*.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 系统
+.DS_Store
